@@ -61,5 +61,5 @@ plt.show()
 
 # saving the image
 #wc.to_file("./wordcloud_Shakespeare.png") # resolution is not good
-fig1.savefig('wordcloud_Shakespeare.png', dpi = 600)
+fig1.savefig('wordcloud_Shakespeare.png', dpi = 600, bbox_inches='tight')
 
